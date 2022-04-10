@@ -12,17 +12,12 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 	width: 800px;
-	margin-top: 0px;
-	margin-left: auto;
-	margin-bottom: 0px;
-	margin-right: auto;
+	margin: 0px auto;
 }
 /* the styles for the header */
 header{
-	border-bottom:3px solid #2ccadb;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
-	background: #2ccadb;
 }
 
 header img {
@@ -42,12 +37,17 @@ header h3{
 }
 
 main{
+	align-items: center;
 	margin: 0 5em;
+}
+
+button{
+	margin: 0 240px 30px 240px;
+	width: 25%;
 }
 
 footer{
 	clear:both;
-	background-color: #2ccadb;
 }
 
 footer p{

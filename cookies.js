@@ -32,8 +32,3 @@ function checkCookie() {
         }
     }
 }
-
-function deleteCookie(){
-    setCookie('name', 'value', 0);
-}
-
